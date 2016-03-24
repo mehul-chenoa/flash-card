@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AD02B291CA3C3900061821A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD02B281CA3C3900061821A /* main.m */; };
+		2AD02B2C1CA3C3900061821A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD02B2B1CA3C3900061821A /* AppDelegate.m */; };
+		2AD02B2F1CA3C3900061821A /* MJFCAllListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD02B2E1CA3C3900061821A /* MJFCAllListViewController.m */; };
+		2AD02B321CA3C3900061821A /* MJFCFavouriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD02B311CA3C3900061821A /* MJFCFavouriteViewController.m */; };
+		2AD02B351CA3C3900061821A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AD02B331CA3C3900061821A /* Main.storyboard */; };
+		2AD02B371CA3C3900061821A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AD02B361CA3C3900061821A /* Assets.xcassets */; };
+		2AD02B3A1CA3C3900061821A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AD02B381CA3C3900061821A /* LaunchScreen.storyboard */; };
+		2AD02B431CA3C9010061821A /* MJFCMyListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD02B421CA3C9010061821A /* MJFCMyListViewController.m */; };
+		2AD02B461CA3C9350061821A /* MJFCSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD02B451CA3C9350061821A /* MJFCSettingsViewController.m */; };
+		2AD02B491CA3CD240061821A /* MJFCRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD02B481CA3CD240061821A /* MJFCRootViewController.m */; };
+		E25C3E9A6A086DC51A055151 /* libPods-Flash Cards.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68591CF9C8BB6CF88FCCE745 /* libPods-Flash Cards.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2AD02B241CA3C3900061821A /* Flash Cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flash Cards.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AD02B281CA3C3900061821A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2AD02B2A1CA3C3900061821A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2AD02B2B1CA3C3900061821A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2AD02B2D1CA3C3900061821A /* MJFCAllListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJFCAllListViewController.h; sourceTree = "<group>"; };
+		2AD02B2E1CA3C3900061821A /* MJFCAllListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJFCAllListViewController.m; sourceTree = "<group>"; };
+		2AD02B301CA3C3900061821A /* MJFCFavouriteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJFCFavouriteViewController.h; sourceTree = "<group>"; };
+		2AD02B311CA3C3900061821A /* MJFCFavouriteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJFCFavouriteViewController.m; sourceTree = "<group>"; };
+		2AD02B341CA3C3900061821A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2AD02B361CA3C3900061821A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AD02B391CA3C3900061821A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2AD02B3B1CA3C3900061821A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AD02B411CA3C9010061821A /* MJFCMyListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFCMyListViewController.h; sourceTree = "<group>"; };
+		2AD02B421CA3C9010061821A /* MJFCMyListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFCMyListViewController.m; sourceTree = "<group>"; };
+		2AD02B441CA3C9350061821A /* MJFCSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFCSettingsViewController.h; sourceTree = "<group>"; };
+		2AD02B451CA3C9350061821A /* MJFCSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFCSettingsViewController.m; sourceTree = "<group>"; };
+		2AD02B471CA3CD240061821A /* MJFCRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFCRootViewController.h; sourceTree = "<group>"; };
+		2AD02B481CA3CD240061821A /* MJFCRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFCRootViewController.m; sourceTree = "<group>"; };
+		4937C5D2F9C53C6241FADF6C /* Pods-Flash Cards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash Cards.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flash Cards/Pods-Flash Cards.release.xcconfig"; sourceTree = "<group>"; };
+		68591CF9C8BB6CF88FCCE745 /* libPods-Flash Cards.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Flash Cards.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1237C46BC6EEADA8FB722FE /* Pods-Flash Cards.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash Cards.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flash Cards/Pods-Flash Cards.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AD02B211CA3C3900061821A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25C3E9A6A086DC51A055151 /* libPods-Flash Cards.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AD02B1B1CA3C3900061821A = {
+			isa = PBXGroup;
+			children = (
+				2AD02B261CA3C3900061821A /* Flash Cards */,
+				2AD02B251CA3C3900061821A /* Products */,
+				4D9E69724DF273AE30F516CB /* Pods */,
+				6BDD01C54702DE1C0B8969B7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2AD02B251CA3C3900061821A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AD02B241CA3C3900061821A /* Flash Cards.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AD02B261CA3C3900061821A /* Flash Cards */ = {
+			isa = PBXGroup;
+			children = (
+				2AD02B2A1CA3C3900061821A /* AppDelegate.h */,
+				2AD02B2B1CA3C3900061821A /* AppDelegate.m */,
+				2AD02B471CA3CD240061821A /* MJFCRootViewController.h */,
+				2AD02B481CA3CD240061821A /* MJFCRootViewController.m */,
+				2AD02B2D1CA3C3900061821A /* MJFCAllListViewController.h */,
+				2AD02B2E1CA3C3900061821A /* MJFCAllListViewController.m */,
+				2AD02B301CA3C3900061821A /* MJFCFavouriteViewController.h */,
+				2AD02B311CA3C3900061821A /* MJFCFavouriteViewController.m */,
+				2AD02B411CA3C9010061821A /* MJFCMyListViewController.h */,
+				2AD02B421CA3C9010061821A /* MJFCMyListViewController.m */,
+				2AD02B441CA3C9350061821A /* MJFCSettingsViewController.h */,
+				2AD02B451CA3C9350061821A /* MJFCSettingsViewController.m */,
+				2AD02B331CA3C3900061821A /* Main.storyboard */,
+				2AD02B361CA3C3900061821A /* Assets.xcassets */,
+				2AD02B381CA3C3900061821A /* LaunchScreen.storyboard */,
+				2AD02B3B1CA3C3900061821A /* Info.plist */,
+				2AD02B271CA3C3900061821A /* Supporting Files */,
+			);
+			path = "Flash Cards";
+			sourceTree = "<group>";
+		};
+		2AD02B271CA3C3900061821A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AD02B281CA3C3900061821A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D9E69724DF273AE30F516CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1237C46BC6EEADA8FB722FE /* Pods-Flash Cards.debug.xcconfig */,
+				4937C5D2F9C53C6241FADF6C /* Pods-Flash Cards.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6BDD01C54702DE1C0B8969B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68591CF9C8BB6CF88FCCE745 /* libPods-Flash Cards.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AD02B231CA3C3900061821A /* Flash Cards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AD02B3E1CA3C3900061821A /* Build configuration list for PBXNativeTarget "Flash Cards" */;
+			buildPhases = (
+				8A901E4C67B1774263503D14 /* Check Pods Manifest.lock */,
+				2AD02B201CA3C3900061821A /* Sources */,
+				2AD02B211CA3C3900061821A /* Frameworks */,
+				2AD02B221CA3C3900061821A /* Resources */,
+				16733E779F23BC3AF1D92DA6 /* Embed Pods Frameworks */,
+				6D7A2B40C901F0617782D76F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flash Cards";
+			productName = "Flash Cards";
+			productReference = 2AD02B241CA3C3900061821A /* Flash Cards.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AD02B1C1CA3C3900061821A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Metal Juice";
+				TargetAttributes = {
+					2AD02B231CA3C3900061821A = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 2AD02B1F1CA3C3900061821A /* Build configuration list for PBXProject "Flash Cards" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AD02B1B1CA3C3900061821A;
+			productRefGroup = 2AD02B251CA3C3900061821A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AD02B231CA3C3900061821A /* Flash Cards */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AD02B221CA3C3900061821A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AD02B3A1CA3C3900061821A /* LaunchScreen.storyboard in Resources */,
+				2AD02B371CA3C3900061821A /* Assets.xcassets in Resources */,
+				2AD02B351CA3C3900061821A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16733E779F23BC3AF1D92DA6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flash Cards/Pods-Flash Cards-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D7A2B40C901F0617782D76F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flash Cards/Pods-Flash Cards-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A901E4C67B1774263503D14 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AD02B201CA3C3900061821A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AD02B321CA3C3900061821A /* MJFCFavouriteViewController.m in Sources */,
+				2AD02B2C1CA3C3900061821A /* AppDelegate.m in Sources */,
+				2AD02B2F1CA3C3900061821A /* MJFCAllListViewController.m in Sources */,
+				2AD02B461CA3C9350061821A /* MJFCSettingsViewController.m in Sources */,
+				2AD02B491CA3CD240061821A /* MJFCRootViewController.m in Sources */,
+				2AD02B431CA3C9010061821A /* MJFCMyListViewController.m in Sources */,
+				2AD02B291CA3C3900061821A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2AD02B331CA3C3900061821A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AD02B341CA3C3900061821A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2AD02B381CA3C3900061821A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AD02B391CA3C3900061821A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AD02B3C1CA3C3900061821A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2AD02B3D1CA3C3900061821A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AD02B3F1CA3C3900061821A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1237C46BC6EEADA8FB722FE /* Pods-Flash Cards.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Flash Cards/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.metaljuice.flashcards.Flash-Cards";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2AD02B401CA3C3900061821A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4937C5D2F9C53C6241FADF6C /* Pods-Flash Cards.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Flash Cards/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.metaljuice.flashcards.Flash-Cards";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AD02B1F1CA3C3900061821A /* Build configuration list for PBXProject "Flash Cards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AD02B3C1CA3C3900061821A /* Debug */,
+				2AD02B3D1CA3C3900061821A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AD02B3E1CA3C3900061821A /* Build configuration list for PBXNativeTarget "Flash Cards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AD02B3F1CA3C3900061821A /* Debug */,
+				2AD02B401CA3C3900061821A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AD02B1C1CA3C3900061821A /* Project object */;
+}
